@@ -1,0 +1,27 @@
+// utils
+@import"./utils/variables";
+@import"./utils/fonts";
+@import"./utils/visually-hidden";
+@import"./utils/placeholders";
+
+// base
+@import"./base/common";
+@import"./base/reset";
+
+@import"./base/modern-nomalize";
+@import"./base/container";
+
+// components
+@import"./components/logo";
+@import"./components/menu";
+@import"./components/contacts";
+@import"./components/teamsocial";
+
+
+
+// layuots
+@import"./layuots/heder";
+@import"./layuots/hero";
+@import"./layuots/features";
+@import"./layuots/services";
+@import"./layuots/team";
