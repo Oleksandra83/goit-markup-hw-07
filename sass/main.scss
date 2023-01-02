@@ -16,7 +16,10 @@
 @import"./components/menu";
 @import"./components/contacts";
 @import"./components/teamsocial";
-
+@import"./components/address-footer";
+@import"./components/footer-social";
+@import"./components/subscription";
+@import"./components/modal-form";
 
 
 // layuots
@@ -25,3 +28,5 @@
 @import"./layuots/features";
 @import"./layuots/services";
 @import"./layuots/team";
+@import"./layuots/clients";
+@import"./layuots/footer";
