@@ -1,10 +1,11 @@
 .social {
-			display: flex;
-				flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .social__title {
 	margin: 0 0 20px;
+
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -31,7 +32,7 @@
 	
 	border-radius: 50%;
 	
-	transition: background-color var(--duration-function) var(--timing-function);
+	transition: background-color $duration-function $timing-function;
 
 	&:hover,
 	&:focus {
@@ -41,5 +42,5 @@
 
 .social__icon{
 	fill: currentColor;
-		cursor: pointer;
+	cursor: pointer;
 }

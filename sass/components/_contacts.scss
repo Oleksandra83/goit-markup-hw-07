@@ -23,9 +23,12 @@
 
 	text-decoration: none;
 
-	transition: color var(--duration-function) var(--timing-function);
+	transition: color $duration-function $timing-function;
 
-	/* outline: 2px solid blue;*/
+	&:hover,
+	&:focus {
+		color: $accent-color;
+	}
 }
 
 .contacts__icon {
@@ -38,10 +41,5 @@
 
 	fill: currentColor;
 	cursor: pointer;
-}
-
-.contacts__link:hover,
-.contacts__link:focus {
-	color: $accent-color;
 }
 

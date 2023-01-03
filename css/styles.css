@@ -610,13 +610,13 @@ img {
 .container .filter {
   max-width: 575px;
 }
-.filter .title {
+.filter__title {
   margin-top: 0;
   margin-bottom: 0;
 
   text-align: center;
 }
-.button-list {
+.filter__list {
   display: flex;
   margin-top: 0;
   margin-bottom: 50px;
@@ -624,11 +624,11 @@ img {
   list-style: none;
 }
 
-.button-list .item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.button {
+.filter__button {
   padding: 6px 22px;
 
   color: var(--title-text-color);
@@ -658,38 +658,38 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /*картки проєктів*/
-.list {
+.projects__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.element {
+.projects__item {
   width: 370px;
 
   margin-right: 30px;
   margin-bottom: 30px;
 }
 
-.element:nth-child(3n) {
+.projects__item:nth-child(3n) {
   margin-right: 0;
 }
 
-.element:nth-last-child(-n + 3) {
+.projects__item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 
 /*оверлей з текстом на картках*/
-.project-card {
+.project__element {
   position: relative;
   overflow: hidden;
 }
 
-.element:hover .project-actions {
+.projects__item:hover .project__actions {
   opacity: 1;
   transform: translatey(0);
 }
 
-.project-text {
+.project__overlay {
   width: 322px;
   height: 168px;
   margin: 0;
@@ -699,7 +699,7 @@ img {
   color: var(--primary-white-color);
 }
 
-.project-actions {
+.project__actions {
   position: absolute;
   padding: 63px 24px;
   top: 0;
@@ -712,14 +712,14 @@ img {
     transform var(--duration-function) var(--timing-function);
 }
 
-.element-text {
+.project__border {
   padding: 20px 24px;
 
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-.project-title {
+.project__title {
   margin-top: 0;
   margin-bottom: 4px;
   color: var(--title-text-color);
@@ -730,7 +730,7 @@ img {
   letter-spacing: 0.06em;
 }
 
-.section-description {
+.project__description {
   margin-top: 0;
 
   line-height: 1.88;
@@ -747,8 +747,8 @@ img {
   transition: box-shadow var(--duration-function) var(--timing-function);
 }
 
-.list .element:hover,
-.list .element:focus {
+.projects__item:hover,
+.projects__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -964,7 +964,7 @@ img {
   justify-content: center;
 }
 
-.modal-btn {
+.form__button {
   width: 200px;
   height: 50px;
   border-radius: 4px;

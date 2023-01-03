@@ -34,8 +34,8 @@
 	color: $primary-icon-text;
 	border: 1px solid rgba(175, 177, 184, 1);
 	cursor: pointer;
-	transition: color var(--duration-function) var(--timing-function),
-		border var(--duration-function) var(--timing-function);
+	transition: color var($duration-function) var($timing-function),
+		border $duration-function $timing-function;
 
 	&:hover,
 	&:focus {

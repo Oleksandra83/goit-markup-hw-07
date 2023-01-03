@@ -23,8 +23,14 @@
 
 	border-radius: 50%;
 
-	transition: background-color var(--duration-function) var(--timing-function),
-							color var(--duration-function) var(--timing-function);
+	transition: background-color $duration-function $timing-function,
+							color $duration-function $timing-function;
+
+	&:hover,
+	&:focus {
+		color: $primary-white;
+		background-color: $accent-color;
+	}
 }
 
 .social__icon{
@@ -36,10 +42,4 @@
 	
 	fill: currentColor;
 	cursor: pointer;
-}
-
-.social__links:hover,
-.social-__links:focus {
-	color: $primary-white;
-	background-color: $accent-color;
 }
