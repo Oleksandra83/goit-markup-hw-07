@@ -992,8 +992,8 @@ summary {
 
 .projects__item:hover .project__actions {
   opacity: 1;
-  -webkit-transform: translatey(0);
-          transform: translatey(0);
+  -webkit-transform: translatey(-101%);
+          transform: translatey(-101%);
 }
 
 .project__overlay {
@@ -1010,7 +1010,7 @@ summary {
 .project__actions {
   position: absolute;
   padding: 63px 24px;
-  top: 0;
+  top: 101%;
   opacity: 0;
   background: rgba(33, 150, 243, 0.9);
   -webkit-transform: translateY(100%);
